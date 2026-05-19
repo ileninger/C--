@@ -1,2 +1,66 @@
 ﻿  main.cpp
-  Hello.vcxproj -> F:\!!CODING 2026\C++\Learn\Hello\x64\Debug\Hello.exe
+F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2): error C2678: binary '=': no operator found which takes a left-hand operand of type 'const std::string' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1503,32):
+      could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+          F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)': cannot convert 'this' pointer from 'const std::string' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+          with
+          [
+              _Elem=char
+          ]
+              F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+              Conversion loses qualifiers
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1495,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+          F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )': cannot convert 'this' pointer from 'const std::string' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+          with
+          [
+              _Elem=char
+          ]
+              F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+              Conversion loses qualifiers
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1444,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+          F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': cannot convert 'this' pointer from 'const std::string' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+              F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+              Conversion loses qualifiers
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1395,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+          F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)': cannot convert 'this' pointer from 'const std::string' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+          with
+          [
+              _Elem=char
+          ]
+              F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+              Conversion loses qualifiers
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1274,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)'
+          F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)': cannot convert 'this' pointer from 'const std::string' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+              F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+              Conversion loses qualifiers
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1490,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _StringViewIsh &)'
+          F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+          'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _StringViewIsh &)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(665,9):
+              'std::enable_if_t<false,int>' : Failed to specialize alias template
+      F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(9,2):
+      while trying to match the argument list '(const std::string, const char [5])'
+  
+F:\!!CODING 2026\C++\C--\Learn\Hello\Hello\main.cpp(10,2): error C2146: syntax error: missing ';' before identifier 'cout'

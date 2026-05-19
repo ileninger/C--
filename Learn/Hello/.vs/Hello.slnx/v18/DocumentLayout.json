@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\!!CODING 2026\\C\u002B\u002B\\Learn\\Hello\\",
+  "WorkspaceRootPath": "F:\\!!CODING 2026\\C\u002B\u002B\\C--\\Learn\\Hello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3088A418-C136-45F0-95E3-D2169DC3AA2A}|Hello\\Hello.vcxproj|F:\\!!CODING 2026\\C\u002B\u002B\\Learn\\Hello\\Hello\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3088A418-C136-45F0-95E3-D2169DC3AA2A}|Hello\\Hello.vcxproj|F:\\!!CODING 2026\\C\u002B\u002B\\C--\\Learn\\Hello\\Hello\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3088A418-C136-45F0-95E3-D2169DC3AA2A}|Hello\\Hello.vcxproj|solutionrelative:Hello\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "F:\\!!CODING 2026\\C\u002B\u002B\\Learn\\Hello\\Hello\\main.cpp",
+              "DocumentMoniker": "F:\\!!CODING 2026\\C\u002B\u002B\\C--\\Learn\\Hello\\Hello\\main.cpp",
               "RelativeDocumentMoniker": "Hello\\main.cpp",
-              "ToolTip": "F:\\!!CODING 2026\\C\u002B\u002B\\Learn\\Hello\\Hello\\main.cpp",
-              "RelativeToolTip": "Hello\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ToolTip": "F:\\!!CODING 2026\\C\u002B\u002B\\C--\\Learn\\Hello\\Hello\\main.cpp*",
+              "RelativeToolTip": "Hello\\main.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-17T16:33:55.124Z",
               "EditorCaption": ""
